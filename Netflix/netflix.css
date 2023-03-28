@@ -1,0 +1,109 @@
+.logo img{
+    width: 160px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+#button1{
+    background-color: black;
+    color: white;
+    border: 2px solid;
+    padding: 5px;
+    margin-right: 20px;
+    height: 40px; width: 80px;
+}
+#button2{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    margin-right: 20px;
+    height: 40px; width: 80px;
+}
+body{
+    background-image:linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 30%,transparent 45%,rgba(0,0,0,.8)), url(img/NetflixLoginBG.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    background-color: black;
+}
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bolder;
+}
+.content h1{
+    font-size: 60px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+.email input{
+    height: 47px;
+    width: 450px;
+}
+#b1{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    height: 54px;
+    width: 170px;
+    font-size: 20px;
+    justify-content: center;  
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; 
+    font-weight: bolder; 
+    border: none;
+}
+hr{
+    height: 8px;
+    background-color: rgb(88, 86, 86);
+    border: none;
+    margin-bottom: 8px;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 110px;
+}
+.text1{
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bolder;
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 180px;
+    margin-left: 100px;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bolder;
+}
+.container{
+    background-color: black;
+}
+#heading{
+    font-size: 50px;
+}
+#para{
+    font-size: 20px;
+}
+.content3{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: bolder;
+}
